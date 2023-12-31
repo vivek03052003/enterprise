@@ -239,8 +239,7 @@ body{
     width: 350px;
     height: 300px;
     border: 2px solid #ff3d0036;
-    border-radius: 13px;
-    
+    border-radius: 13px; 
     cursor: pointer;
     margin: 10px;
     transition: 400ms;
@@ -299,6 +298,32 @@ body{
     margin: 10px;
     transition: 400ms;
 
+}
+
+/*           order           */
+
+.order h5{
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+    background-color: #202020;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+.order span{
+    font-weight: 800;
+}
+.order a{
+    background-color: #ffc107;
+    color: #202020;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 15px;
+    text-align: center;
+    margin-left: 510px;
 }
 /*           FEEDBACK        */
 
