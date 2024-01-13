@@ -40,6 +40,7 @@ body{
 .view{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 .view h1{
     color: orange;
@@ -49,22 +50,22 @@ body{
     text-align: center;
     font-size: 20px;
 }
-.logo img{
-   margin-left: 650px;
-   width: 200px;
+.logo {
+  width: 150px;
    height: 100px;
-   justify-content: left;
-   align-items: left;
    
-
+  
+}
+.logo img{
+    width: 150px;
+   height: 100px;
+   margin-left: 600px;
     
-
-
 }
 .view img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
+   justify-content: center;
+   margin-left: 450px;
    
 }
 .founder h3{
@@ -81,6 +82,10 @@ body{
     color: orange;
 
 }
+.founder{
+    color: #ffc107;
+    font-size: 12px;
+}
 .about{
     color: #fff;
     text-align: center;
@@ -90,24 +95,39 @@ body{
     color: #fff;
     text-align: center;
 }
-.unorderedList{
-    display: table;
+.unordered{
     list-style: none;
-    padding-left: 550px;
+   font-family: sans-serif;
+    color: #ffc107;
+    text-decoration: solid;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.eco{
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.unorderedList{
+    color: #ffc107;
+    list-style: none;
+    margin-left: 475px;
+    text-align: start;
+    width: 100%;
+    
 }
 .trust1{
-    position: relative;
+    
     box-shadow: 0px 0px 5px 2px #fff;
     background: #ffc107;
     cursor: pointer;
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 100%;
     width: 500px;
     height: 150px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 450px;
-    
+    margin-left: 475px;
+    display: flex;
     font-size: 20px;
     color: #202020;
 
@@ -121,13 +141,13 @@ body{
     position: relative;
     box-shadow: 0px 0px 5px 2px #ffc107;
     cursor: pointer;
-    margin-top: 50px;
-    width: 650px;
-    height: 180px;
+   width: 100%;
+    width: 250px;
+    height: 100px;
     align-items: center;
     justify-content: center;
-    margin-left: 350px;
-    font-size: 20px;
+    font-size: 10px;
+    margin-right: 10px;
     color: #ffc107;
 }
 .trust a{
@@ -156,11 +176,13 @@ body{
     justify-content: center;
 }
 .shipping{
-    margin-top: 25px;
+    width: 100%;
+    font-size: 18px;
     background: #ffc107;
     color: #202020;
     text-align: center;
     border-radius: 10px;
+    
 
 }
 .shipping-h1{
@@ -221,7 +243,9 @@ body{
 }
 /*  areca */
 #areca{
+    width: 100%;
     background:#ffc107;
+    
 }
 .areca-h1{
     text-align: center;
@@ -231,13 +255,12 @@ body{
 .areca-p{
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
+    width: 100%;
 }
 .areca-p img{
-    margin: 0;
-    padding: 0;
-    width: 350px;
-    height: 300px;
+   
+    width: 250px;
+    height: 200px;
     border: 2px solid #ff3d0036;
     border-radius: 13px; 
     cursor: pointer;
@@ -254,7 +277,7 @@ body{
     justify-content: right;
     position: relative;
     display: flex;
-    margin-left: 200px;
+    
     width: 350px;
     height: 250px;
     border: 2px solid #ff3d0036;
@@ -267,7 +290,7 @@ body{
 .price{
     margin: 15px;
     text-align: center;
-    margin-left: 300px;
+    
     width: 200px;
     color: #ffc107;
     background-color:#202020;
@@ -301,6 +324,9 @@ body{
 }
 
 /*           order           */
+.order{
+    margin-top: 25px;
+}
 
 .order h5{
     font-weight: 400;
@@ -332,12 +358,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 55px;
+   width: 100%;
+    
 }
 .form{
     display: flex;
     flex-direction: column;
-    margin: 25px;
+    
 }
 .input-name{
     width: 450px;
@@ -402,6 +429,7 @@ body{
 .footer{
     margin-top: 150px;
     background-color: #202020;
+    width: 100%;
   }
   
   .brands{
@@ -427,3 +455,18 @@ body{
     padding: 10px;
     margin: 0px 30px 20px;
   }
+  @media screen and (max-width: 600px) {
+    .view {
+        
+    }
+    .trust1 {
+        flex-direction: column;
+       
+      
+    }
+    .unordered {
+        flex-direction: column;
+
+    }
+   }
+  
