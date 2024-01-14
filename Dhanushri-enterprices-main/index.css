@@ -313,14 +313,13 @@ body{
     height: 200px;
     border: 2px solid #ff3d0036;
     border-radius: 13px;
-    
     cursor: pointer;
     margin: 10px;
     transition: 400ms;
 
 }
 
-/*           order           */
+
 .order{
     margin-top: 25px;
 }
@@ -452,17 +451,9 @@ body{
     margin: 0px 30px 20px;
   }
   @media screen and (max-width: 600px) {
-    .view {
-        
+    #ship .container{
+        width: 50%;
     }
-    .trust1 {
-        flex-direction: column;
-       
-      
-    }
-    .unordered {
-        flex-direction: column;
-
-    }
+    
    }
   
