@@ -53,19 +53,21 @@ body{
 .logo {
   width: 150px;
    height: 100px;
+  justify-content: center;
    
   
 }
 .logo img{
     width: 150px;
    height: 100px;
-   margin-left: 600px;
+   margin-left: 200px;
+   
     
 }
 .view img{
     
    justify-content: center;
-   margin-left: 450px;
+  margin-left: 400px;
    
 }
 .founder h3{
@@ -134,23 +136,7 @@ body{
     color:#202020;
     text-decoration-style: solid;
 }
-.trust{
-    position: relative;
-    box-shadow: 0px 0px 5px 2px #ffc107;
-    cursor: pointer;
-   width: 100%;
-    width: 250px;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-    margin-right: 10px;
-    color: #ffc107;
-}
-.trust a{
-    color: #ffc107;
-    text-decoration-style: solid;
-}
+
 
 
 .bar{
@@ -275,8 +261,8 @@ body{
     position: relative;
     display: flex;
     
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
     border: 2px solid #ff3d0036;
     border-radius: 13px;
 
@@ -308,7 +294,7 @@ body{
 
 }
 .imagine{
-    
+
     width: 250px;
     height: 200px;
     border: 2px solid #ff3d0036;
@@ -316,7 +302,6 @@ body{
     cursor: pointer;
     margin: 10px;
     transition: 400ms;
-
 }
 
 
@@ -453,6 +438,9 @@ body{
   @media screen and (max-width: 600px) {
     #ship .container{
         width: 50%;
+    }
+    .trust1 {
+        right: 250px;
     }
     
    }
